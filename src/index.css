@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    @apply bg-stone-800 font-sans font-normal text-stone-50 antialiased;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  #root {
+    @apply m-auto max-w-7xl p-8;
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+}
